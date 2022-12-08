@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2022-12-08)
+### Fix
+* Removed unused code ([`f1e4511`](https://github.com/jonathanvanleeuwen/actions_test/commit/f1e4511e3f1cdf976765437d8b7009fc2f849d09))
+
 ## v0.2.0 (2022-12-08)
 ### Feature
 * Semantic release test ([`87a61a8`](https://github.com/jonathanvanleeuwen/actions_test/commit/87a61a84d244cf697c2dd78e95ad72a6a32ba1d0))
