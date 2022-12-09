@@ -12,6 +12,7 @@ To use this template:
 
 
 
+
 # Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
 When committing use the following format for your commit message:
