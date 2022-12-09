@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.0 (2022-12-09)
+### Feature
+* Initial commit ([`da551e8`](https://github.com/jonathanvanleeuwen/lib_template/commit/da551e88a181233586df792ae98a77766aee5da0))
+
+### Fix
+* Reset version ([`9fa9ad1`](https://github.com/jonathanvanleeuwen/lib_template/commit/9fa9ad1c7b4985853a63f7c0b8d60724888bfd98))
+
 ## v1.2.0 (2022-12-09)
 ### Feature
 * Removed numpy ([`5ea5bb8`](https://github.com/jonathanvanleeuwen/lib_template/commit/5ea5bb8073a09580558b60136ae5330ce73a0352))
