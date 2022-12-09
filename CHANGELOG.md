@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.6 (2022-12-09)
+### Fix
+* Trigger ([`b5b9f88`](https://github.com/jonathanvanleeuwen/actions_test/commit/b5b9f88cfff71555244bbccd6ec7617d7d5544bf))
+*  trigger ([`ba364bf`](https://github.com/jonathanvanleeuwen/actions_test/commit/ba364bfd775627229c13514654a150bf67990f6e))
+* Trigger ([`b290ffd`](https://github.com/jonathanvanleeuwen/actions_test/commit/b290ffd061939052e62113ad8e62415cfdb15702))
+
 ## v0.2.5 (2022-12-09)
 ### Fix
 * Readme ([`0497216`](https://github.com/jonathanvanleeuwen/actions_test/commit/0497216374463448ffa15adfac6be7270a9eaaef))
