@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.3 (2022-12-09)
+### Fix
+* Setup.cfg ([`e0dcee9`](https://github.com/jonathanvanleeuwen/lib_template/commit/e0dcee9bab8e5507d473d315ea16a24fd23ea2bd))
+
 ## v1.0.2 (2022-12-09)
 ### Fix
 * Updated readme ([`fe7c9d8`](https://github.com/jonathanvanleeuwen/lib_template/commit/fe7c9d8bbb0a8a08f73055e73aa174d0915b85aa))
