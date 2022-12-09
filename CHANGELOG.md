@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.7 (2022-12-09)
+### Fix
+* Added README content ([`237b755`](https://github.com/jonathanvanleeuwen/actions_test/commit/237b75506c2a410c4d191bf16a702b878ea41157))
+
 ## v0.2.6 (2022-12-09)
 ### Fix
 * Trigger ([`b5b9f88`](https://github.com/jonathanvanleeuwen/actions_test/commit/b5b9f88cfff71555244bbccd6ec7617d7d5544bf))
