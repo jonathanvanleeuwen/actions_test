@@ -4,3 +4,8 @@ requires = [
     "wheel>=0.36.2"
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.semantic_release]
+version_variable = ['src/lib_template/__init__.py:__version__']
+branch = "main"
+upload_to_repository="false"

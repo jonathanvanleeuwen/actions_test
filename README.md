@@ -5,9 +5,10 @@
 
 To use this template:
 * Create a new repo using this template
-* Rename the folder in *src* to your repo name
+* Rename the folder in `src` to your repo name
 * Update / change the tests
-* Change the settings in *setup.cfg*
+* Change the settings in  `setup.cfg`
+* Change the version in `src/your_new_name/__init__.py`
 * Follow the steps below to setup the repo correctly (permissions, secrets etc)
 
 
