@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.1 (2022-12-09)
+### Fix
+* Readme update ([`39bca9c`](https://github.com/jonathanvanleeuwen/lib_template/commit/39bca9c33f017c08d30abcf6fb1a29e37dc6708f))
+
 ## v1.1.0 (2022-12-09)
 ### Feature
 * Added toml ([`59773e9`](https://github.com/jonathanvanleeuwen/lib_template/commit/59773e946f45423ad3f38c0fb35616a5afa7d49a))
