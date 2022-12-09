@@ -3,4 +3,4 @@
 Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
 
-Trigger2
+Trigger
