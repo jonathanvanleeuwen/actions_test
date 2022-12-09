@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.3 (2022-12-09)
+### Fix
+* Trigger test on PR ([`f9b48b4`](https://github.com/jonathanvanleeuwen/actions_test/commit/f9b48b4a9e0e65bde14437d33944bef678990881))
+
 ## v0.2.2 (2022-12-09)
 ### Fix
 * New token ([`294f739`](https://github.com/jonathanvanleeuwen/actions_test/commit/294f739375e990a516b763e9a1bb7599fae9d4de))
