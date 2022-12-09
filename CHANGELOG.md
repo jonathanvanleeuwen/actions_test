@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.0 (2022-12-09)
+### Fix
+* A message ([`ef0d77b`](https://github.com/jonathanvanleeuwen/actions_test/commit/ef0d77b0cba7e68835b3e7b3143a344fe3303df8))
+
+### Breaking
+* test break  ([`ef0d77b`](https://github.com/jonathanvanleeuwen/actions_test/commit/ef0d77b0cba7e68835b3e7b3143a344fe3303df8))
+
 ## v0.3.0 (2022-12-09)
 ### Feature
 * Rename ([`c3f95f4`](https://github.com/jonathanvanleeuwen/actions_test/commit/c3f95f497299ba0afffd058f26c07309a71d6978))
