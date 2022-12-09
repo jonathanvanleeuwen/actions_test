@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2022-12-09)
+### Feature
+* Rename ([`c3f95f4`](https://github.com/jonathanvanleeuwen/actions_test/commit/c3f95f497299ba0afffd058f26c07309a71d6978))
+
 ## v0.2.7 (2022-12-09)
 ### Fix
 * Added README content ([`237b755`](https://github.com/jonathanvanleeuwen/actions_test/commit/237b75506c2a410c4d191bf16a702b878ea41157))
