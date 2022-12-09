@@ -32,6 +32,7 @@ When committing use the following format for your commit message:
 To ensure that only accepted code is put on main, make sure that all changes to main happen using a PR and at least 1
 reviewer.
 You also want to ensure that no tests are allowed to fail when merging
+
 ## Branch Protection
 ### Ensure branch protection for PRs
 In the repo on github go to:
