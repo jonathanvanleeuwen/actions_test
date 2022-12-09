@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.2 (2022-12-09)
+### Fix
+* Toml bool ([`03b0492`](https://github.com/jonathanvanleeuwen/lib_template/commit/03b0492878fbecc74a0cf3cb036f15f74efa0694))
+
 ## v1.1.1 (2022-12-09)
 ### Fix
 * Readme update ([`39bca9c`](https://github.com/jonathanvanleeuwen/lib_template/commit/39bca9c33f017c08d30abcf6fb1a29e37dc6708f))
