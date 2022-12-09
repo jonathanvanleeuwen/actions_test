@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.2 (2022-12-09)
+### Fix
+* Updated readme ([`fe7c9d8`](https://github.com/jonathanvanleeuwen/lib_template/commit/fe7c9d8bbb0a8a08f73055e73aa174d0915b85aa))
+
 ## v1.0.1 (2022-12-09)
 ### Fix
 * Readme ([`095ff7e`](https://github.com/jonathanvanleeuwen/actions_test/commit/095ff7e1ae9ee3a914a2d1e611f77ded95b40440))
