@@ -12,8 +12,6 @@ To use this template:
 * Follow the steps below to setup the repo correctly (permissions, secrets etc)
 
 
-
-
 # Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
 
