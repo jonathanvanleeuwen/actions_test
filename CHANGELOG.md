@@ -2,6 +2,18 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.2 (2022-12-09)
+### Fix
+* New token ([`294f739`](https://github.com/jonathanvanleeuwen/actions_test/commit/294f739375e990a516b763e9a1bb7599fae9d4de))
+* Trigger ([`98a28d2`](https://github.com/jonathanvanleeuwen/actions_test/commit/98a28d275b0e4533e449c16045e036016bc069cf))
+* Trigger ([`2e2f3d4`](https://github.com/jonathanvanleeuwen/actions_test/commit/2e2f3d4c2244b8d7012f79f33d76356fb3649ec6))
+* Dependencies ([`686d1ea`](https://github.com/jonathanvanleeuwen/actions_test/commit/686d1ea423dc0871a6575dccab2d7799750be9c9))
+* Settings ([`dde2de4`](https://github.com/jonathanvanleeuwen/actions_test/commit/dde2de4be11812c7060393431f2b2a9f48a8006e))
+* PAT token ([`456eca7`](https://github.com/jonathanvanleeuwen/actions_test/commit/456eca7f82f06f18f3b5bef98dfc23416f660c51))
+* New token ([`4b9954f`](https://github.com/jonathanvanleeuwen/actions_test/commit/4b9954fa91ed17dfb2c7efe416a068bb6c6f548f))
+* On pull request ([`70eb8d3`](https://github.com/jonathanvanleeuwen/actions_test/commit/70eb8d393a0ec9f5c6da5efbacfb946b57ec30b9))
+* Test ([`abc3f56`](https://github.com/jonathanvanleeuwen/actions_test/commit/abc3f56a4ad9b29856f480efcab6468ac4f71227))
+
 ## v0.2.1 (2022-12-08)
 ### Fix
 * Removed unused code ([`f1e4511`](https://github.com/jonathanvanleeuwen/actions_test/commit/f1e4511e3f1cdf976765437d8b7009fc2f849d09))
