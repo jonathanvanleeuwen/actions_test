@@ -3,4 +3,9 @@
 Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
 
-Trigger
+
+
+# Protect your main branch
+
+# Create a semantic release PAT
+
