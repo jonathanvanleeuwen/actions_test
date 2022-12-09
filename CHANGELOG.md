@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.5 (2022-12-09)
+### Fix
+* Readme ([`0497216`](https://github.com/jonathanvanleeuwen/actions_test/commit/0497216374463448ffa15adfac6be7270a9eaaef))
+
 ## v0.2.4 (2022-12-09)
 ### Fix
 * Update readme ([`e391a71`](https://github.com/jonathanvanleeuwen/actions_test/commit/e391a718554c1d4a2722488a9a0b1e2bdc22a8f3))
