@@ -15,14 +15,19 @@ To use this template:
 
 # Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
+
 When committing use the following format for your commit message:
 * patch:
-  * fix: commit message
+  `fix: commit message`
 * minor:
-  * feat: commit message
-* major/breaking (add the breaking change on the second line of the message):
-  *  feat: commit message
-     BREAKING CHANGE: commit message
+`feat: commit message`
+* major/breaking (add the breaking change on the third  line of the message):
+    ```
+    feat: commit message
+
+    BREAKING CHANGE: commit message
+    ```
+
 
 # Protect your main branch
 To ensure that only accepted code is put on main, make sure that all changes to main happen using a PR and at least 1
