@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.0 (2022-12-09)
+### Feature
+* Added toml ([`59773e9`](https://github.com/jonathanvanleeuwen/lib_template/commit/59773e946f45423ad3f38c0fb35616a5afa7d49a))
+
+### Fix
+* Test ([`4ddd780`](https://github.com/jonathanvanleeuwen/lib_template/commit/4ddd780a336b3a7395ec395cee94468c3067bea9))
+* Updated setup ([`49c2c4b`](https://github.com/jonathanvanleeuwen/lib_template/commit/49c2c4b65bd994fcdc41501cfeb89175ada46df2))
+
 ## v1.0.3 (2022-12-09)
 ### Fix
 * Setup.cfg ([`e0dcee9`](https://github.com/jonathanvanleeuwen/lib_template/commit/e0dcee9bab8e5507d473d315ea16a24fd23ea2bd))
