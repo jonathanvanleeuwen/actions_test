@@ -1,5 +1,5 @@
 import pytest
-from actions_test.basic_function import add, subtract
+from lib_template.basic_function import add, subtract
 
 
 @pytest.mark.parametrize(
