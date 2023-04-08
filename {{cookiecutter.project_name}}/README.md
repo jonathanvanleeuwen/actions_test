@@ -1,16 +1,22 @@
-# Example lib
+# {{cookiecutter.project_name}}
 * Automated testing on PR using github actions
-* Protected branch
 * Semantic release using github actions
 
-To use this template:
-* Create a new repo using this template
-* Rename the folder in `src` to your repo name
-* Update / change the tests
-* Change the settings in  `setup.cfg`
-* Change the version in `src/your_new_name/__init__.py`
-* Follow the steps below to setup the repo correctly (permissions, secrets etc)
-
+## Install
+Cookiecutter template:
+* Cd to your new libary location
+  * `cd /your/new/library/path/`
+* Install cookiecutter using pip
+  * `pip install cookiecutter`
+* Run the cookiecutter template from this github repo
+  * `cookiecutter https://github.com/jonathanvanleeuwen/lib_template`
+* Fill in your new library values
+* Create new virtual environment
+  *  `python -m venv .venv_repo_name`
+* Install libary
+  *  `pip install -e .`
+* Check proper install by running tests
+  * `pytest`
 
 # Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
@@ -19,7 +25,7 @@ When committing use the following format for your commit message:
 * patch:
   `fix: commit message`
 * minor:
-`feat: commit message`
+  `feat: commit message`
 * major/breaking (add the breaking change on the third  line of the message):
     ```
     feat: commit message

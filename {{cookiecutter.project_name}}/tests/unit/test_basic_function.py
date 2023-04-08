@@ -1,5 +1,5 @@
 import pytest
-from lib_template.basic_function import add, subtract
+from {{cookiecutter.project_name}}.basic_function import add, subtract
 
 
 @pytest.mark.parametrize(
@@ -9,7 +9,7 @@ from lib_template.basic_function import add, subtract
         pytest.param(0, 2, 2, id="correct 2"),
     ],
 )
-def test_add(a, b, expected):
+def test_add(a, b, expected) -> None:
     assert add(a, b) == expected
 
 
@@ -20,5 +20,5 @@ def test_add(a, b, expected):
         pytest.param(0, 2, -2, id="correct 2"),
     ],
 )
-def test_subtract(a, b, expected):
+def test_subtract(a, b, expected) -> None:
     assert subtract(a, b) == expected
