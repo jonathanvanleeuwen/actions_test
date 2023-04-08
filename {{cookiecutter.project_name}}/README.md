@@ -2,12 +2,21 @@
 * Automated testing on PR using github actions
 * Semantic release using github actions
 
+## Install
 Cookiecutter template:
-* `cd /your/new/library/path/`
-* `pip install cookiecutter`
-* `cookiecutter https://github.com/jonathanvanleeuwen/lib_template`
+* Cd to your new libary location
+  * `cd /your/new/library/path/`
+* Install cookiecutter using pip
+  * `pip install cookiecutter`
+* Run the cookiecutter template from this github repo
+  * `cookiecutter https://github.com/jonathanvanleeuwen/lib_template`
 * Fill in your new library values
-
+* Create new virtual environment
+  *  `python -m venv .venv_repo_name`
+* Install libary
+  *  `pip install -e .`
+* Check proper install by running tests
+  * `pytest`
 
 # Semantic release
 https://python-semantic-release.readthedocs.io/en/latest/
@@ -16,7 +25,7 @@ When committing use the following format for your commit message:
 * patch:
   `fix: commit message`
 * minor:
-`feat: commit message`
+  `feat: commit message`
 * major/breaking (add the breaking change on the third  line of the message):
     ```
     feat: commit message
