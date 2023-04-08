@@ -89,3 +89,7 @@ Go to your repo, then:
 
 The name needs to be the same as this is wat is used in ".github\workflows\semantic-release.yml"
 
+
+# Coverage report
+<!-- Pytest Coverage Comment:Begin -->
+<!-- Pytest Coverage Comment:End -->
