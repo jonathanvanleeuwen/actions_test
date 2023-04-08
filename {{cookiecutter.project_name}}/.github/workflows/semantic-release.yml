@@ -1,4 +1,4 @@
-name: Semantic Release
+{% raw %}name: Semantic Release
 
 on:
   push:
@@ -20,3 +20,4 @@ jobs:
       uses: relekang/python-semantic-release@master
       with:
         github_token: ${{ secrets.SEM_RELEASE  }}
+{%- endraw %}
