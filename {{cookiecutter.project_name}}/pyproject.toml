@@ -6,6 +6,6 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.semantic_release]
-version_variable = ['src/lib_template/__init__.py:__version__']
+version_variable = ['src/{{cookiecutter.project_name}}/__init__.py:__version__']
 branch = "main"
 upload_to_repository=false

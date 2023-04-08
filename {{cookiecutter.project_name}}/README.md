@@ -1,15 +1,12 @@
-# Example lib
+# {{cookiecutter.project_name}}
 * Automated testing on PR using github actions
-* Protected branch
 * Semantic release using github actions
 
-To use this template:
-* Create a new repo using this template
-* Rename the folder in `src` to your repo name
-* Update / change the tests
-* Change the settings in  `setup.cfg`
-* Change the version in `src/your_new_name/__init__.py`
-* Follow the steps below to setup the repo correctly (permissions, secrets etc)
+Cookiecutter template:
+* `cd /your/new/library/path/`
+* `pip install cookiecutter`
+* `cookiecutter https://github.com/jonathanvanleeuwen/lib_template`
+* Fill in your new library values
 
 
 # Semantic release
