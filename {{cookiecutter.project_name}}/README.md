@@ -1,8 +1,21 @@
 # {{cookiecutter.project_name}}
 * Automated testing on PR using github actions
 * Semantic release using github actions
+* Automatic code coverage report in README
 
-## Install
+*Notes*  
+Workflows trigger when a branch is merged into main!  
+To install, please follow all the instructions in this readme.  
+The workflows require a PAT set as secret (see further down for instructions)  
+See the notes on how to create semantic releases at the bottom of the README.     
+  
+If you followed all the steps, whenever a PR is merged into `main`, the workflows are triggered and should:
+* Ensure that tests pass (before merge)
+* Create a code coveraeg report and commit that to the bottom of the README
+* Create a semantic release (if you follow the semantic release pattern) and automatically update the version number of your code.
+
+
+# Install
 Cookiecutter template:
 * Cd to your new libary location
   * `cd /your/new/library/path/`
@@ -18,21 +31,34 @@ Cookiecutter template:
 * Check proper install by running tests
   * `pytest`
 
-# Semantic release
-https://python-semantic-release.readthedocs.io/en/latest/
+## Turn the new local cookiecutter code into a git repo
 
-When committing use the following format for your commit message:
-* patch:
-  `fix: commit message`
-* minor:
-  `feat: commit message`
-* major/breaking (add the breaking change on the third  line of the message):
-    ```
-    feat: commit message
+Open git bash 
+```bash
+cd C:/your/code/directory
+```
+To init the repository, add all files and commit
+```bash
+git init
+git add *
+git add .github
+git add .gitignore
+git commit -m "fix: Inital commit"
+```
 
-    BREAKING CHANGE: commit message
-    ```
+To add the new git repository to your github, -
+*  Go to [github](https://github.com/).
+-  Log in to your account.
+-  Click the [new repository](https://github.com/new) button in the top-right. You’ll have an option there to initialize the repository with a README file, but don’t. Leave the repo empty
+- Give the new repo the same name you gave your repo with the cookiecutter
+-  Click the “Create repository” button.
 
+Now we want to make sure we are using `main` as main branch name and push the code to github
+```bash
+git remote add origin https://github.com/username/new_repo_name.git
+git branch -M main
+git push -u origin main
+```
 
 # Protect your main branch
 To ensure that only accepted code is put on main, make sure that all changes to main happen using a PR and at least 1
@@ -59,6 +85,8 @@ this is not entirely fool proof and secure, but better than nothing, in the repo
   * actions/checkout@v2,
 actions/setup-python@v3,
 relekang/python-semantic-release@master,
+MishaKav/pytest-coverage-comment@main,
+actions-js/push@master,
 
 ## Create a semantic release PAT and Secrets for the workflow actions
 For the semantic release to be able to push new version to the protected branch you need to
@@ -87,8 +115,25 @@ Go to your repo, then:
   * Name: SEM_RELEASE
   * Secret: [Your copied PAT token]
 
-The name needs to be the same as this is wat is used in ".github\workflows\semantic-release.yml"
+The name needs to be the same, as this is wat is used in ".github\workflows\semantic-release.yml"
 
+
+# Semantic release
+https://python-semantic-release.readthedocs.io/en/latest/
+
+The workflows are triggered when you merge into main!!
+
+When committing use the following format for your commit message:
+* patch:
+  `fix: commit message`
+* minor:
+  `feat: commit message`
+* major/breaking (add the breaking change on the third  line of the message):
+    ```
+    feat: commit message
+
+    BREAKING CHANGE: commit message
+    ```
 
 # Coverage report
 <!-- Pytest Coverage Comment:Begin -->
