@@ -11,6 +11,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dynamic = ["readme", "version"]
+requires-python = ">=3.11"
 dependencies = [
     "pytest>=7.1.2",
     "pytest-xdist>=2.5.0",
@@ -26,7 +27,6 @@ Homepage = "https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.proje
 "Bug Tracker" = "https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.project_name}}/issues"
 
 [tool.setuptools]
-requires-python = ">=3.8"
 include-package-data = true
 zip-safe = false
 package-dir = { "" = "src" }
